@@ -1,6 +1,7 @@
 # javascript-Recap osio1 ja osio2
 
-# JavaScript Recap Osio
+
+# JavaScript Recap Osio ensimmäinen viikon tehtävät.
 
 Tämä repositorio sisältää JavaScript-kurssin recap osio1 ja osio2 tehtävät eriteltynä. 
 
