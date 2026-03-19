@@ -1,4 +1,4 @@
-# javascript-Recap osio osio1 ja osio2
+# javascript-Recap osio1 ja osio2
 
 # JavaScript Recap Osio
 
