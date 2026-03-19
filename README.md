@@ -2,8 +2,8 @@
 
 # JavaScript Recap Osio
 
-Tämä repositorio sisältää JavaScript-kurssin ensimmäisen viikon harjoitustehtävät. 
-Tehtävissä on harjoiteltu interaktiivisia ohjelmia, muuttujia sekä valintarakenteita (`if`, `else if`, `else`).
+Tämä repositorio sisältää JavaScript-kurssin recap osio1 ja osio2 tehtävät eriteltynä. 
+
 
 ## Kerätyt pisteet
 Olen tehnyt tehtävät 1-4, joista kertyy yhteensä **11 pistettä** (minimivaatimus 10p).
