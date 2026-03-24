@@ -1,51 +1,70 @@
-# JavaScript Recap – Osiot 1 & 2
+# JavaScript Recap – Kaikki osiot (1–5)
 
-Tämä repositorio sisältää JavaScript-kurssin **Recap osio 1** ja **Recap osio 2** -tehtävät selkeästi eriteltynä.
+Tämä repositorio sisältää JavaScript-kurssin kaikki kertaustehtävät (osiot 1–5). Projekti on jaettu selkeisiin osioihin, jotka kattavat:
+- kielen perusteet
+- DOM-manipulaation
+- tapahtumankäsittelyn
+- modernin AJAX / fetch -pohjaisen tiedonhakulogiikan
+- (Recap 5) ravintolasovelluksen Metropolian ravintola-API:lla
 
-## Tehdyt tehtävät ja pisteet
+---
 
-### Recap Osio 1
-Olen tehnyt tehtävät **1–4**, joista kertyy yhteensä **11 pistettä** (minimivaatimus **10 p**).
+## Tehdyt tehtävät ja kansiorakenne
 
-**Tehtävät**
-- **Assignment 1:** Lämpötilamuunnos (Celsius → Fahrenheit ja Kelvin)
-- **Assignment 2:** Kahden pisteen välinen etäisyys 2D-tasolla
-- **Assignment 3:** Kolmion tyypin määrittely sivujen pituuksien perusteella
-- **Assignment 4:** Kurssiarvosanan laskeminen pistemäärän mukaan
+### Recap 1 & 2: Perusteet
+**Sijainti:** `/recap1` ja `/recap2`
 
-### Recap Osio 2
-Olen tehnyt tehtävät **1–3**, joista kertyy yhteensä **12 pistettä** (minimivaatimus **10 p**).
+**Sisältö:** muuttujat, ehtolauseet, taulukot ja funktioiden perusteet.
 
-**Tehtävät**
-1. **Tehtävä 1:** Taulukoiden perusteet  
-2. **Tehtävä 2:** Taulukko-operaatiot ja lajittelu  
-3. **Tehtävä 3:** Parillisten lukujen poiminta  
+---
 
+### Recap 3: DOM Assignments
+**Sijainti:** `/recap3/dom-assignments/`
 
-## Recap 3 - Event Handling
-Tässä osiossa keskityttiin JavaScriptin tapahtumankäsittelyyn ja interaktiivisuuden lisäämiseen:
-- **TODO-lista:** Toteutettiin lista, jossa on tehtävien lisäys modaalin kautta, tehtävien kuittaaminen checkboxilla ja poistaminen `removeChild`-metodilla.
-- **Ravintolalista:** Luotiin aakkostettu lista ravintoloista. Toteutettiin "exclusive highlight" -toiminto, jossa klikattu rivi korostuu ja avaa modaalin ravintolan tarkemmilla tiedoilla.
+**Sisältö:**
+- HTML-elementtien dynaaminen luominen (mm. `insertAdjacentHTML` ja DOM-metodit)
+- BOM-rajapintoja
+- Geolocation-paikannus
+- Leaflet.js-karttojen integrointi
 
-## Recap 4 - Geolocation & Distance
-Harjoiteltiin selaimen paikkatietojen hyödyntämistä:
-- Käytettiin `navigator.geolocation` API:a hakemaan käyttäjän koordinaatit.
-- Laskettiin ravintoloiden etäisyys käyttäjästä ja järjestettiin lista automaattisesti lähimmän mukaan.
+---
 
-## Recap 5 - Leaflet Maps
-Viimeisessä osiossa siirrettiin data visuaaliselle kartalle:
-- Integroitiin **Leaflet.js** -kirjasto projektiin.
-- Luotiin interaktiivinen kartta, joka keskittyy käyttäjän sijaintiin.
-- Lisättiin ravintolat kartalle markereina, jotka avaavat popup-ikkunan klikattaessa.
+### Recap 4: Event Handling
+**Sijainti:** `/recap4/event-assignments/` (tai vastaava)
 
-## Työkalut ja ympäristö
+**Sisältö:**
+- tapahtumankäsittelyn perusteet
+- event listenerien käyttö
+- interaktiivisten UI-komponenttien toteutus
 
-Projektissa on käytetty seuraavia työkaluja koodin laadun ja yhtenäisyyden varmistamiseksi:
+---
 
-- **ESLint:** Staattinen analyysi virheiden löytämiseksi
-- **Prettier:** Automaattinen koodin muotoilu
-- **EditorConfig:** Editorikohtaiset asetukset (esim. sisennys)
+### Recap 5: AJAX Basics & Restaurant App (34 p)
+Tässä osiossa hyödynnetään Reqres-testirajapintaa sekä Metropolian omaa ravintola-API:a.
 
-## Testaus / Käyttö
+**Sijainti:** `/recap5/` (tehtävät t1–t5)
 
-Tehtäviä voi testata avaamalla juurikansion **`index.html`**-tiedoston, joka toimii valikkona kaikkiin harjoituksiin.
+**Tehtävät:**
+- **t1 & t2:** GET- ja POST-metodien käyttö API-avaimen kanssa
+- **t3:** edistynyt virheidenhallinta (`try/catch`) ja HTTP-statustunnistus
+- **t4:** yleiskäyttöisen ja virheenkestävän `fetchData`-funktion kehittäminen
+- **t5:** ravintolasovellus:
+  - listaa Metropolian ravintolat
+  - mahdollistaa aakkosjärjestyksen
+  - hakee päivän menun dynaamisesti modaaliin
+
+---
+
+## Työkalut ja laadunvarmistus
+
+Projektissa on noudatettu hyviä ohjelmointitapoja ja käytetty seuraavia työkaluja:
+
+- **ESLint** – staattinen koodinanalyysi
+- **Prettier** – automaattinen muotoilu
+- **EditorConfig** – standardoidut editoriasetukset
+
+---
+
+## Käyttö
+
+Avaa juurikansion **`index.html`** selaimessa. Sivu toimii keskitettynä valikkona, josta pääset siirtymään kaikkiin kurssin harjoituksiin.
